@@ -8,6 +8,7 @@ const fs = require('fs');
 const superagent = require('superagent');
 const { color } = require('./config.json');
 const queue = new Map();
+const { logintoken } = require("./config.json");
 
 const app = express();
 app.get("/", (request, response) => {
@@ -173,4 +174,4 @@ const member = message.member;
     
 })
 
-client.login(process.env.TOKEN)
+client.login(logintoken)
