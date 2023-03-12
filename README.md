@@ -1,6 +1,3 @@
 ### Oxidle Bot
 
-## This Scirpt may not working cause old script
-
-#Credits
-- Renzie2161 -
+## This Script is not longer working due discord keep updating
